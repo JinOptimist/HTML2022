@@ -1,0 +1,24 @@
+.icon::before{
+	content: ' ';
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.home::before{
+	background-image: url(../images/icon/outline_home_black_24dp.png);
+}
+
+.home:hover::before{
+	background-image: url(../images/icon/baseline_home_black_24dp.png);
+}
+
+.gallery::before{
+	background-image: url(../images/icon/outline_collections_black_24dp.png);
+}
+
+.gallery:hover::before{
+	background-image: url(../images/icon/baseline_collections_black_24dp.png);
+}
+

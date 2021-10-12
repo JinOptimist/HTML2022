@@ -1,11 +1,45 @@
+header{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 90px;
+}
+
+.left-menu{
+	width: 200px;
+}
+
+.left-menu a{
+	text-decoration: none;
+}
+
+.fly-menu{
+	position: fixed;
+    width: 200px;
+}
+
+.content{
+	flex: 1;
+}
+
+.button{
+	border: 1px solid red;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin: 2px;
+}
+
+.button:hover{
+	background: #ccc;
+}
+
 .main-content{
 	display: flex;
 }
 
-.hotkey-container,
 .image-container{
+	display: flex;
+	flex-wrap: wrap;
 	flex: 1;
-	border: 1px red solid;
 }
 
 
@@ -14,13 +48,18 @@
 	color: blue;
 }
 
-img{
-	max-width: 100px;
-	max-height: 100px;
+.photo-block img{
+	max-width: 300px;
+    max-height: 200px;
+	
 }
 
 .photo-block{
 	border: 2px dotted green;
+	width: 300px;
+    height: 200px;
+	margin: 5px;
+    border-radius: 25px;
 }
 
 .photo-name{
@@ -31,4 +70,27 @@ img{
 .button-container{
 	display: flex;
 	justify-content: space-around;
+}
+
+.page{
+	display: none;
+}
+
+.page:target{
+	display: block;
+}
+
+
+
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+}
+
+footer{
+	background: #cccccc;
+	display: flex;
+    justify-content: space-around;
 }
