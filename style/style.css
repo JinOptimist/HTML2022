@@ -1,0 +1,34 @@
+.main-content{
+	display: flex;
+}
+
+.hotkey-container,
+.image-container{
+	flex: 1;
+	border: 1px red solid;
+}
+
+
+.hotkey-name{
+	font-weight: bold;
+	color: blue;
+}
+
+img{
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.photo-block{
+	border: 2px dotted green;
+}
+
+.photo-name{
+	display: flex;
+	justify-content: center;
+}
+
+.button-container{
+	display: flex;
+	justify-content: space-around;
+}
