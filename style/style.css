@@ -5,7 +5,7 @@ header{
 }
 
 .left-menu{
-	width: 200px;
+	width: 44px;
 }
 
 .left-menu a{
@@ -14,8 +14,42 @@ header{
 
 .fly-menu{
 	position: fixed;
-    width: 200px;
+    width: 44px;
 }
+
+.fly-menu:hover{
+	width: 200px;
+	background: #ccc;
+}
+
+.fly-menu .button{
+	display: flex;
+    align-items: center;
+}
+
+.additional-menu{
+	display: none;
+	position: absolute;
+    margin-left: 200px;
+    background: aliceblue;
+	width: 200px;
+}
+
+.fly-menu a{
+	display: block;
+}
+li:hover .additional-menu{
+	display: block;
+}
+
+.button-text{
+	display: none;
+}
+
+.fly-menu:hover .button-text{
+	display: inline;
+}
+
 
 .content{
 	flex: 1;
@@ -34,6 +68,7 @@ header{
 
 .main-content{
 	display: flex;
+	min-height: calc(100vh - 112px);
 }
 
 .image-container{
@@ -42,7 +77,6 @@ header{
 	flex: 1;
 }
 
-
 .hotkey-name{
 	font-weight: bold;
 	color: blue;
@@ -50,8 +84,12 @@ header{
 
 .photo-block img{
 	max-width: 300px;
-    max-height: 200px;
-	
+    max-height: 150px;
+}
+
+.photo-block .image-container{
+	border-top: 2px green dotted;
+	border-bottom: 2px green dotted;
 }
 
 .photo-block{
@@ -62,6 +100,11 @@ header{
     border-radius: 25px;
 }
 
+.image-container{
+	display: flex;
+    justify-content: center;
+}
+
 .photo-name{
 	display: flex;
 	justify-content: center;
@@ -70,6 +113,27 @@ header{
 .button-container{
 	display: flex;
 	justify-content: space-around;
+	height: 35px;
+}
+
+.button-container .button{
+	flex: 1;
+    background: green;
+    border-radius: 0;
+    margin: 0;
+	background: green;
+}
+
+.button-container .button:first-child{
+	border-bottom-left-radius: 22px;
+}
+
+.button-container .button:last-child{
+	border-bottom-right-radius: 22px;
+}
+
+.button-container .button:nth-child(2n){
+	background: yellow;
 }
 
 .page{
@@ -94,3 +158,33 @@ footer{
 	display: flex;
     justify-content: space-around;
 }
+
+
+
+input[type=number]{
+	border-color: red;
+}
+
+input[type=number]:focus{
+	border-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
