@@ -173,8 +173,31 @@ input[type=number]:focus{
 	border-color: blue;
 }
 
+.popup{
+	position: fixed;
+    width: 100%;
+    height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.popup .cover{
+	position: fixed;
+    width: 100%;
+    height: 100vh;
+	background: #000;
+	opacity: 0.5;
+}
+
+.popup .popup-content{
+	background: white;
+	position: fixed;
+	z-index: 5;
+	width: 200px;
+    height: 120px;
+}
 
 
 
