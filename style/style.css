@@ -180,6 +180,7 @@ input[type=number]:focus{
 	display: flex;
     justify-content: center;
     align-items: center;
+	display: none; /* УДАЛИТЬ для того что бы увидеть всплывающее окно */
 }
 
 
