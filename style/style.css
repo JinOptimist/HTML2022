@@ -201,6 +201,10 @@ input[type=number]:focus{
 }
 
 
+td, th{
+	border: 1px green solid;
+}
+
 
 
 
