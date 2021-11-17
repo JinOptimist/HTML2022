@@ -68,6 +68,7 @@ li:hover .additional-menu{
 
 .button:hover{
 	background: #ccc;
+	border: 1px solid green;
 }
 
 .main-content{
@@ -102,6 +103,10 @@ li:hover .additional-menu{
     height: 200px;
 	margin: 5px;
     border-radius: 25px;
+}
+
+.photo-block:hover .button{
+	background: black;
 }
 
 .image-container{
@@ -204,6 +209,59 @@ input[type=number]:focus{
 td, th{
 	border: 1px green solid;
 }
+
+.dice{
+	width: 300px;
+	height: 300px;
+	border: 3px solid purple;
+	border-radius: 20px;
+	display: flex;
+}
+
+.dice.one{
+	justify-content: center;
+	align-items: center;
+}
+
+.dice.two{
+	flex-direction: column;
+    justify-content: space-between;
+}
+
+.dice.two .line:first-child{
+	display: flex;
+	justify-content: flex-end;
+}
+.dice div {
+	font-size: 54px;
+    color: black;
+}
+
+.mobile{
+	width: 300px;
+	height: 600px;
+	overflow-y: scroll;
+	border: 5px orange solid;
+}
+.exit-wraper{
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.exit{
+	background: aqua;
+    height: 42px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 
 
 

@@ -1,0 +1,10 @@
+1) gallery (name, image, buttons) columns depeand on width
+2) pages
+3) menu (inner)
+4) menu fixed
+5) menu short/long
+6) form a lot of input types
+7) input style of active, focus, label, placeholder, input order
+8) media
+9) fixed button to bottom of block
+0) nice images (not cats)
